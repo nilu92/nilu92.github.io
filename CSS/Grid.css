@@ -1,0 +1,51 @@
+.wrapper
+{
+    display: grid;
+   /* grid-template-columns: 1fr 1fr;*/
+   grid-template-columns: repeat(4,1fr,2fr);
+    grid-gap:1em;
+}
+.wrapper > div
+{
+    background: #eee;
+    padding: 1em;
+}
+.wrapper > div:nth-child(odd)
+{
+   background:#ddd;
+}
+.footer
+{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color:white;
+}
+.box
+{
+    
+    height: 30px;
+    width: 95px;
+ 
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.904);
+    text-align: center;
+    color: rgb(15, 141, 158);
+}
+.box:hover
+{
+    height: 30px;
+    width: 95px;
+    text-align: center;
+    background-color: rgb(228, 145, 51);
+    color: rgb(252, 252, 252);
+}
+
+.sticky
+{
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  
+}
